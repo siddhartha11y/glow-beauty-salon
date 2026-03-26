@@ -8,8 +8,8 @@ export const siteConfig = {
   name: "Glow Beauty Salon",
   tagline: "Look Good, Feel Confident",
   location: "Andheri West, Mumbai, Maharashtra 400053",
-  phone: "+91 99999 99999",
-  phoneRaw: "919999999999",
+  phone: "+91 7208390226",
+  phoneRaw: "7208390226",
 
   // ── SEO ────────────────────────────────────
   seo: {
