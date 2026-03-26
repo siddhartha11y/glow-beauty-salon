@@ -13,16 +13,30 @@ export const metadata: Metadata = {
     "hair spa",
     "Glow Beauty Salon",
   ],
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
   openGraph: {
     title: siteConfig.seo.title,
     description: siteConfig.seo.description,
     type: "website",
     locale: "en_IN",
+    images: [
+      {
+        url: "/og-image.svg",
+        width: 1200,
+        height: 630,
+        alt: "Glow Beauty Salon — Mumbai",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.seo.title,
     description: siteConfig.seo.description,
+    images: ["/og-image.svg"],
   },
 };
 
